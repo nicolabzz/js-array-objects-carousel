@@ -1,39 +1,3 @@
-<!-- 
-Consegna:
-Riprendiamo l'esercizio carosello e modifichiamone il codice per renderlo funzionante con un array di oggetti al posto dell'array semplice.
-Ecco l'array con i dati:
-const images = [
-	{
-		image: '01.webp',
-		title: "Marvel's Spiderman Miles Morale",
-		text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
-	},
-	{
-		image: '02.webp',
-		title: 'Ratchet & Clank: Rift Apart',
-		text: 'Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality.',
-	},
-	{
-		image: '03.webp',
-		title: 'Fortnite',
-		text: 'Grab all of your friends and drop into Epic Games Fortnite, a massive 100 - player face - off that combines looting, crafting, shootouts and chaos.',
-	},
-	{
-		image: '04.webp',
-		title: 'Stray',
-		text: 'Lost, injured and alone, a stray cat must untangle an ancient mystery to escape a long-forgotten city',
-	},
-	{
-		image: '05.webp',
-		title: "Marvel's Avengers",
-		text: "Marvel's Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.",
-	},
-];
-BONUS 1:
-Aggiungere funzionalità di autoplay: dopo un certo periodo di tempo (3 secondi) l’immagine attiva dovrà cambiare alla successiva.
-BONUS 2:
-Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +6,7 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css -->
-    <link rel="stylesheet" type="text/stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- js -->
     <script src="js/script.js" defer></script>
@@ -50,6 +14,36 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
     <title>Carosello Array di Oggetti</title>
 </head>
 <body>
+
+   <main>
+       
+        <div class="container">
+
+            <div class="big-pic">
+                <!-- <img src="img/01.webp" alt=""> -->
+
+            </div>
+            <div class="btn-section">
+                <button id="indietro-btn">&lt;</button>
+                <button id="avanti-btn">&gt;</button>
+            </div>
+      
+        
+            <div class="thumbnail">
+                <!-- <div class="small-card"></div> -->
+                
+        
+            </div>
+    
+        </div>
+
+
+   
+   
+    </main>
+
+
+    
     
 </body>
 </html>

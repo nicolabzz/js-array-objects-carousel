@@ -3,3 +3,78 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: goldenrod;
+}
+
+main {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container {
+    border: 4px solid darkred;
+    margin: 3rem;
+    /* border: 2px solid black; */
+    width: 608px;
+    height: 608px;
+    position: relative;
+}
+
+.big-pic {
+    /* border: 2px solid green; */
+    height: 475px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:300px;
+    width: 600px;
+    z-index: 10;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+
+}
+
+.thumbnail {
+    display: flex;
+    height: 125px;
+    width: 100%;
+    /* border: 2px solid palevioletred; */
+}
+
+.small-card {
+    /* border: 2px solid blue; */
+    height: 125px;
+    width: calc(600px / 5);
+}
+
+.thumbnail img {
+    width: calc(600px / 5);
+    height: 125px;
+    object-fit: cover;
+}
+
+.big-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active {
+    border: 2px solid tomato;
+}
